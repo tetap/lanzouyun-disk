@@ -20,6 +20,7 @@
     "release": "yarn react-build && electron-builder --publish=always",
     "test": "craco test",
     "eject": "react-scripts eject",
+    "lint:prettier": "prettier --write --loglevel warn \"src/**/*.{js,ts,json,tsx,css,less,scss}\"",
     "tsc-electron-build": "tsc -p tsconfig.electron.json",
     "postinstall": "electron-builder install-app-deps && cd app && yarn"
   },

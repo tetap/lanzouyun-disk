@@ -11,7 +11,7 @@
   "scripts": {
     "start": "electron .",
     "debug": "electron --inspect-brk=8889 .",
-    "build": "electron-builder -mw"
+    "build": "electron-builder --windows"
   },
   "keywords": [],
   "license": "ISC",
@@ -24,16 +24,16 @@
     "electron-builder": "^23.0.3"
   },
   "build": {
-    "productName": "蓝奏云盘",
-    "copyright": "更多内容到 https://github.com/chenhb23/lanzouyun-disk",
-    "appId": "org.chenhb23.lanzou",
+    "productName": "创量广告",
+    "copyright": "更多内容到 https://www.mobgi.com/",
+    "appId": "org.mobgi.client",
     "asar": true,
     "files": [
       "build"
     ],
     "extends": null,
     "mac": {
-      "category": "org.chenhb23.lanzou.client",
+      "category": "org.mobgi.client",
       "artifactName": "lanzouyun-${version}-${arch}-${os}.${ext}",
       "identity": null,
       "target": {

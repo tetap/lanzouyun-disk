@@ -11,6 +11,10 @@
 }
 
 @keyframes rotate {
-  from {transform: rotate(0deg)}
-  from {transform: rotate(359deg)}
+  from {
+    transform: rotate(0deg);
+  }
+  from {
+    transform: rotate(359deg);
+  }
 }
